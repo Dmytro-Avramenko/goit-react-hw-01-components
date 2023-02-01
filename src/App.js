@@ -7,6 +7,9 @@ import data from '../src/data/data.json';
 import { FriendList } from './friends/FriendList';
 import friends from '../src/data/friends.json';
 
+import { TransactionHistory } from './transaction/TransactionHistory';
+import transactions from '../src/data/transactions.json';
+
 export default function App() { 
     return (
         <div>
@@ -24,48 +27,8 @@ export default function App() {
             <Statistics title="Upload stats" stats={data} />
             <h2>Friends</h2>
             <FriendList friends={friends} />           
-            <h2>Task4</h2>            
+            <h2>Transaction</h2>
+            <TransactionHistory items={transactions} />            
         </div>
     );    
 }
-
-
-// import PaintingList from 'components/PaintingList';
-// import paintings from '../src/user.json';
-
-// export default function App() { 
-//     return (
-//         <div>
-//             <PaintingList items={paintings}/>                    
-//         </div>
-//     );    
-// }
-
-
-// {users.map(user => <Painting
-    // key={user.id}
-//     username={user.name}
-//     tag={user.tag}
-//     location={user.location}
-//     avatar={user.avatar}
-//     statsfollowers={user.stats.followers}
-//     statsviews={user.stats.views}
-//     statsviews={user.stats.likes}
-// /> )}
-
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };
