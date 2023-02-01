@@ -1,0 +1,25 @@
+.item {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+    gap: 5px;
+    border: 1px solid rgb(108, 108, 108);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.146);
+    border-radius: 2px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.avatar {
+    border-radius: 5px;
+}
+
+.name {
+    font-weight: 600;
+}
