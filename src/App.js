@@ -24,7 +24,7 @@ export default function App() {
                 statslikes={user.stats.likes}
             />
             <h2>Statistics</h2>
-            <Statistics title="Upload stats" stats={data} />
+            <Statistics stats={data} />
             <h2>Friends</h2>
             <FriendList friends={friends} />           
             <h2>Transaction</h2>
