@@ -1,5 +1,7 @@
 .statistics {
     background-color: rgb(216, 216, 216);
+    margin: auto;
+    width: 400px;    
 }
 
 .title {
@@ -19,6 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .item {
