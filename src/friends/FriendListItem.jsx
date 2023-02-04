@@ -1,6 +1,4 @@
 import css from './FriendListItem.module.css';
-import PropTypes from 'prop-types';
-
 import { StyledStatus } from './FriendListItemStyled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
